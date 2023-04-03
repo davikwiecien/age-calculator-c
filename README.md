@@ -6,3 +6,5 @@ To run the program, download all files (.h and .c) and compile as follows:
 GCC: gcc -o some_output_name *.c *.h
 
 Clang: clang some_output_name *.c *.h
+
+You need to enter the dates using the forward slash (/), for example: 12/14/2001
