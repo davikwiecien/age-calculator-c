@@ -26,7 +26,7 @@ void print_result(struct Result *result) {
         result->hours, result->minutes, result->seconds);
 
     if(result->is_birthday)
-        printf("\nToday is your %huº birthday! Happy Birthday!", result->total_years);
-    printf("\nDays to your %uº birthday = %u\n", result->total_years + 1, result->next_birthday);
+        printf("\nToday is your %huo birthday! Happy Birthday!", result->total_years);
+    printf("\nDays to your %uo birthday = %u\n", result->total_years + 1, result->next_birthday);
 
 }
